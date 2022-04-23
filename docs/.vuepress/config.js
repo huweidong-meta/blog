@@ -22,8 +22,6 @@ module.exports = {
         ],
         sidebar: [
             '/',
-            '/page-a',
-            ['/page-b', 'Explicit link text']
         ],
         lastUpdated: '最后更新时间', // string | boolean
     }
