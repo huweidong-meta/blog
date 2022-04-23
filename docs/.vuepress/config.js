@@ -2,7 +2,7 @@ const dayjs = require('dayjs')
 require('dayjs/locale/zh-cn')
 const dayjs_plugin_localizedFormat = require('dayjs/plugin/localizedFormat')
 module.exports = {
-    title:"hwd",
+    title:"HuWeiDong",
     plugins: {
             '@vuepress/last-updated': {
                 transformer: (timestamp, lang) => {
@@ -13,15 +13,15 @@ module.exports = {
         },
     },
     themeConfig: {
-        logo: 'logo.png',
+        logo: '/logo.png',
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'External', link: '#' },
-            { text: 'about', link: '/about/' },
+            { text: 'Home', link: '/home' },
+            { text: '快速开始', link: '/guide/guide.md' },
+            { text: '扩展', link: '/external/external.md' },
+            { text: '关于', link: '/about/about.md' },
         ],
         sidebar: [
-            '/',
+            /*'/',*/
         ],
         lastUpdated: '最后更新时间', // string | boolean
     }
