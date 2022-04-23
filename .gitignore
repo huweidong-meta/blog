@@ -1,0 +1,8 @@
+# vuepress temp file
+.temp
+# 不上传依赖
+node_modules
+# 安装异常
+yarn-error.log
+# 打包结果
+docs/.vuepress/dist
