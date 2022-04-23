@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "dayjs": "^1.11.1",
     "vuepress": "^1.9.7"
   },
   "scripts": {
