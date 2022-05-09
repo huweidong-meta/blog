@@ -14,7 +14,7 @@ module.exports = {
             { text: '博客', link: '/guide/' },
             { text: '其他', link: '/external/external.md' , target:'_self', rel:''},
             { text: '关于', link: '/about/about.md' },
-            { text: 'GitHub', link: 'https://github.com' , target:'_blank'},
+            { text: 'GitHub', link: 'https://github.com/huweidong-meta' , target:'_blank'},
         ],
         sidebar: [
             {
