@@ -6,3 +6,10 @@ node_modules
 yarn-error.log
 # 打包结果
 docs/.vuepress/dist
+/.idea/.gitignore
+/.idea/blog.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/runConfigurations.xml
+/.idea/vcs.xml
